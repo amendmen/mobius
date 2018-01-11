@@ -1,0 +1,10 @@
+<div>
+  <nav>
+    <a routerLink='' routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Главная</a>
+    <a routerLink='/blog' routerLinkActive="active">Блог</a>
+    <a routerLink='/about' routerLinkActive="active">О нас</a>
+    <a routerLink='/contact' routerLinkActive="active">Контакты</a>
+  </nav>
+</div>
+<h1>{{title}}</h1>
+<router-outlet></router-outlet>

@@ -1,0 +1,15 @@
+.app-modal-body {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    background-color: lightgray;
+    font-size: 50px;
+    text-align: center;
+    left: 30%;
+    top: 30%;
+}
+
+button {
+    margin-left: 50px;
+    margin-top: 50px;
+}
